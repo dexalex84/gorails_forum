@@ -43,3 +43,15 @@ group :development, :test do
   gem 'spring'
 end
 
+#authority
+
+gem 'devise', '~> 3.4.1'
+
+group :development do
+	# model annotations
+	gem 'annotate', '~> 2.6.5'
+
+	# for better errors
+	gem 'better_errors'
+	gem "binding_of_caller"
+end
